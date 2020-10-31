@@ -1,0 +1,31 @@
+.about{
+    background-color: #222222;
+    color: #fff;
+
+    width: 100%;
+    min-height: 100vh;
+
+    .about-title{
+        border-left: 8px solid #daae21;
+        margin: auto;
+        font-size: clamp(1.5rem,5vw,2.5rem);
+    }
+    .name{
+        font-size: clamp(1rem,8vw,1.6rem);
+        margin: 1.5rem auto .3rem auto;
+    }
+
+    .about-content{
+        margin-bottom: 10rem;
+    }
+    .event-date{
+        border-radius: 360%;
+        background-color: #daae21;
+    }
+    #events{
+        min-height: 42vh;
+    }
+
+
+
+}

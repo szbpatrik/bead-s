@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.home {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home #bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+  z-index: -1;
+}
+
+.home .title-section .title {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+}
+
+.home .title-section .title-desc {
+  color: #c9c9c9;
+  font-size: clamp(0.8rem, 2.2vw, 1.2rem);
+}
+
+.home .title-section button {
+  font-size: clamp(0.9rem, 2.2vw, 1.4rem);
+}
+
+.home .school-job-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 25%;
+  position: absolute;
+  top: 37.5%;
+  left: 25%;
+  background-color: #181818;
+  margin: auto;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 16px;
+  border: 1px solid white;
+}
+
+.home .school-job-container .school-job-title {
+  color: red;
+  font-size: 24px;
+}
+
+.home .school-job-container .school-job-desc {
+  font-size: 1rem;
+  color: red;
+}
+
+.home .school-job-container .exit {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  font-size: 24px;
+  color: red;
+  border: 1px solid white;
+  background-color: black;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.about {
+  background-color: #222222;
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.about .about-title {
+  border-left: 8px solid #daae21;
+  margin: auto;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+.about .name {
+  font-size: clamp(1rem, 8vw, 1.6rem);
+  margin: 1.5rem auto .3rem auto;
+}
+
+.about .about-content {
+  margin-bottom: 10rem;
+}
+
+.about .event-date {
+  border-radius: 360%;
+  background-color: #daae21;
+}
+
+.about #events {
+  min-height: 42vh;
+}
+
+.gallery {
+  min-height: 100vh;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(/gallery/bg/bg-hair.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/gallery/bg/bg-hair.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.gallery .gallery-title {
+  border-left: 8px solid #fff;
+  margin: auto;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  color: #daae21;
+}
+
+.gallery .gallery-desc-title {
+  font-size: clamp(2rem, 8vw, 2.3rem);
+  font-weight: bold;
+  color: #daae21;
+}
+
+.gallery .gallery-desc {
+  font-size: clamp(1rem, 3.5vw, 1.3rem);
+  color: #9c9c9c;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+
+.services {
+  background-color: #222222;
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.services .services-title {
+  border-left: 8px solid #daae21;
+  margin: auto;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+.services .box {
+  border-color: #daae21;
+  width: 23rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .services .box {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .services .box {
+    width: 18rem;
+  }
+}
+
+.services .box .btn-success {
+  background-color: #daae21;
+  border: #daae21;
+}
+
+.services .box .btn-success:hover {
+  background-color: #775c02;
+}
+
+.services .box .box-title {
+  color: #ffffff;
+}
+
+.services .box .box-title-desc {
+  color: #e0e0e0;
+}
+
+.services .box strong {
+  color: #daae21;
+}
+
+.contact {
+  background-color: #222222;
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.contact .contact-title {
+  border-left: 8px solid #daae21;
+  margin: auto;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+.contact .submitbtn {
+  background-color: #daae21;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

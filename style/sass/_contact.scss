@@ -1,0 +1,22 @@
+//flexbox system
+//grid systems
+
+.contact{
+    background-color: #222222;
+    color: #fff;
+
+    width: 100%;
+    min-height: 100vh;
+    
+
+    .contact-title{
+        border-left: 8px solid #daae21;
+        margin: auto;
+        font-size: clamp(1.5rem,5vw,2.5rem);
+    }
+    
+    .submitbtn{
+        background-color: #daae21;
+    }
+    
+}

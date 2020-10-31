@@ -1,0 +1,43 @@
+.services{
+    background-color: #222222;
+    color: #fff;
+
+    width: 100%;
+    min-height: 100vh;
+    
+
+    .services-title{
+        border-left: 8px solid #daae21;
+        margin: auto;
+        font-size: clamp(1.5rem,5vw,2.5rem);
+    }
+    .box{
+        border-color: #daae21;
+        width: 23rem;
+        @media only screen and(max-width:450px){
+            width: 20rem;
+        }
+        @media only screen and(max-width:400px){
+            width: 18rem;
+        }
+        .btn-success{
+            background-color: #daae21;
+            border: #daae21;
+            &:hover{
+                background-color: #775c02;
+            }
+        }
+        .box-title{
+            color: #ffffff;
+        }
+        .box-title-desc{
+            color: rgb(224, 224, 224);
+        }
+        strong{
+            color: #daae21;
+        }
+    }
+    
+    
+    
+}
